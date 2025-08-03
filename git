@@ -1,0 +1,17 @@
+# GIT
+
+## Prevent Commits to Master
+
+Create a file, .git/hooks/pre-commit, with the following content:
+
+#!/bin/bash
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "master" ] || [ "$branch" = "main" ]; then
+    echo "You can't commit directly to $branch branch"
+    exit 1
+fi
+
+chmod +x .git/hooks/pre-commit
+
