@@ -1,0 +1,4 @@
+# FOTF Coding Standards
+
+## Naming
+Selector classes use sObject name, plural (InviteCodesSelector)
