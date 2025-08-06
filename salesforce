@@ -1,0 +1,8 @@
+# Salesforce
+
+## Create Classes
+sf apex generate class --output-dir force-app/main/default/classes --name <ClassName>
+
+sf apex generate class --output-dir force-app/main/default/classes --template ApexUnitTest --name <ClassNameTest>
+
+sf lightning generate component --type lwc --output-dir force-app/main/default/lwc --name <YourComponentName>
