@@ -1,0 +1,13 @@
+# Salesforce Packages
+
+## Start up scratch org for development
+sf org create scratch --alias <alias> \
+  --definition-file config/project-scratch-def.json \
+  --target-dev-hub prod 
+
+### Optional Args
+  --duration-days x
+  --set-default
+
+## Open Scratch Org
+sf org open --target-org <alias>
