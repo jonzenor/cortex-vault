@@ -1,0 +1,9 @@
+# Jest Tests #
+
+## Commands to run all tests
+npm test
+npm run test:unit
+
+## Run a specific test ##
+
+npm test - -testPathPattern=membershipInvite.test.js
