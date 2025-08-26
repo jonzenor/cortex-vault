@@ -1,0 +1,25 @@
+# Stripe CLI
+
+# Install
+brew install stripe/stripe-cli/stripe
+
+## Usage
+stripe [command]
+
+# Run `--help` for detailed information about CLI commands
+stripe [command] help
+
+## Commands
+login
+listen
+trigger
+logs tail
+events resend
+samples
+serve
+status
+config
+open
+get, post & delete commands
+resource commands
+

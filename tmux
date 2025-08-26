@@ -10,3 +10,7 @@ tmux refresh-client -S
 ## Manually change window size
 :resize-pane -R 5
 -R -D -U -L
+
+# Windows
+Create Window: prefix + c
+Switch Window: previx + n
