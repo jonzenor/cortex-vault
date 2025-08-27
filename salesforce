@@ -6,3 +6,7 @@ sf apex generate class --output-dir force-app/main/default/classes --name <Class
 sf apex generate class --output-dir force-app/main/default/classes --template ApexUnitTest --name <ClassNameTest>
 
 sf lightning generate component --type lwc --output-dir force-app/main/default/lwc --name <YourComponentName>
+
+## Authentication
+### Find hte Auth URL
+sf org display --verbose --target-org <alias>
