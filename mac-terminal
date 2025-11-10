@@ -2,3 +2,5 @@
 
 ## Copy
 pbcopy < <filename>
+
+echo 'Hello Zac"
