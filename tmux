@@ -3,6 +3,9 @@
 ## Attach to an existing session
 tmux attach
 
+## Prefix
+Default is CTRL + b, I think? I have it mapped to CTRL + a
+
 ## Refresh the session
 tmux source-file ~/.tmux.conf
 tmux refresh-client -S
@@ -13,4 +16,9 @@ tmux refresh-client -S
 
 # Windows
 Create Window: prefix + c
-Switch Window: previx + n
+Switch Window: prefix + n
+
+# Panes
+Create vertical split: prefix + %
+Create Horizontal split: prefix + "
+
