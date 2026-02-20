@@ -1,0 +1,5 @@
+# Flutter
+
+## Run a dev environment
+> flutter run -d chrome
+> flutter run -d ios
