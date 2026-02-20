@@ -1,0 +1,3 @@
+# Java Builds
+
+mvn clean package -Drevision=1.0.2-build2
