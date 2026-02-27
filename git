@@ -15,3 +15,5 @@ fi
 
 chmod +x .git/hooks/pre-commit
 
+### After rebasing
+git push --force-with-lease
