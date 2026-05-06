@@ -17,17 +17,29 @@ tmux refresh-client -S
 :resize-pane -R 5
 -R -D -U -L
 
-# Windows
+## Windows
 Create Window: prefix + c
 Switch Window: prefix + n / p
 
-# Panes
+## Panes
 Create vertical split: prefix + %
 Create Horizontal split: prefix + "
 
-## Move between panes
+### Move between panes
 prefix + arrow keys
 
-# Initial Configurations
-## Enable Mouse Usage
+## Initial Configurations
+### Enable Mouse Usage
 :set -g mouse on
+
+### Plugins
+Save and restore panes and sessions
+:set -g @plugin 'tmux-plugins/tmux-resurrect'
+:set -g @plugin 'tmux-plugins/tmux-continuum'
+
+### Config file
+~/.tmux.conf
+
+set -g @continuum-restore 'on'
+set -g mouse on 
+
