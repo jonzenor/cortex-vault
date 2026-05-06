@@ -4,7 +4,10 @@
 tmux attach
 
 ## Prefix
-Default is CTRL + b, I think? I have it mapped to CTRL + a
+Default is CTRL + b. I have it mapped to CTRL + a
+
+## Update configurations / set flags 
+prefix + :
 
 ## Refresh the session
 tmux source-file ~/.tmux.conf
@@ -16,9 +19,15 @@ tmux refresh-client -S
 
 # Windows
 Create Window: prefix + c
-Switch Window: prefix + n
+Switch Window: prefix + n / p
 
 # Panes
 Create vertical split: prefix + %
 Create Horizontal split: prefix + "
 
+## Move between panes
+prefix + arrow keys
+
+# Initial Configurations
+## Enable Mouse Usage
+:set -g mouse on
