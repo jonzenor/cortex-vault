@@ -25,6 +25,7 @@ tmux refresh-client -S
 ## Windows
 Create Window: prefix + c
 Switch Window: prefix + n / p
+Close Window: prefix + &
 
 ## Panes
 Create vertical split: prefix + %
